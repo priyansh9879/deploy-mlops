@@ -1,7 +1,6 @@
 import os 
 from keras.datasets import mnist
 from keras.optimizers import RMSprop
-cmd = r' mail.py '
 dataset = mnist.load_data('mymnist.db')
 train , test = dataset
 X_train , y_train = train
@@ -33,7 +32,6 @@ a = 90
 
 if scores[1]*100 > a:
     os.system(cmd)
-    cmd = r' mail.py '
     print("Sending the report to the target User through mail")
     model.save('bestaccuracymodel.h5')
     file1 = open("cnn_resultbestaccuracy.txt","w+")

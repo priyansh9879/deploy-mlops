@@ -9,8 +9,7 @@ sender_email = "link2pm333@gmail.com"
 # Receivers email
 rec_email = "priyansh.m333@gmail.com"
 
-message = "Hie thier, Your Model has been Trained with accuracy more than 90%........
-Thank You"
+message = "Hie thier, Your Model has been Trained with accuracy more than 90%...Thank You"
 # Initialize the server variable
 server = smtplib.SMTP('smtp.gmail.com', 587)
 # Start the server connection
